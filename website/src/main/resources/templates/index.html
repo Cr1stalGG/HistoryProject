@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="ru" class="no-js" xmlns:th="http://www.thymeleaf.org">
    <head>
       <!-- Meta -->
       <title>Еврейское СМИ</title>
@@ -7,13 +7,13 @@
       <meta name="author" content="Alexander Savitskiy">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="/vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+      <link href="/css/style.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
+         <a class="navbar-brand mx-auto" href="/">
          <p class="back_but" height="22" alt="Logo">СТРУГАЧИ. ИСТОРИЯ И НАСЛЕДИЕ</p>
          </a>
          <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,9 +23,9 @@
          </div>
          <div id="toggle-nav" class="navbar-collapse collapse">
             <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link" href="fabricks.html">Постройки</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="childrens.html">Детки</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="legacy.html">Наследие</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/plants">Постройки</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/children">Детки</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/legacy">Наследие</a> </li>
                <li class="nav-item"> <a class="nav-link" href="https://www.google.com/maps/d/edit?mid=1sP5UQgftom80rUb1kisrxhc1mhctaBwV&usp=sharing">Маршрут</a> </li>
             </ul>
             <div id="social"></div>
@@ -44,7 +44,7 @@
                               <p>С развитием капиталистических отношений евреи заняли важнейшие позиции в развивающейся экономике города и региона. В 1880-е годы евреи предприниматели владели основными промышленными предприятиями в Ошмянах. Первое промышленное предприятие на Ошмянщине построено в 1794 году – чугуноплавильный завод в имении графа Хребтовича в Вишнево. В 1897 году в городе уже насчитывалось 9 промышленных предприятий и водяная мельница, проживало 218 рабочих. Среди других значится и винокуренный завод (позже-дрожжевой) еврея Лейбы Давидовича Стругача.
                                 <br><br> Крупнейшими промышленниками Ошмянщины в XIX веке был род Стругачей. Первым из рода, кто связал свою судьбу с Ошмянщиной, является Лейба Давидович Стругач. К сожалению, в ходе работы было найдено только одно общее фото с его изображением.
                               </p>
-                              <img class="img-fluid pt-5 pb-5" src="img/strugachL.png" alt="Photo">
+                              <img class="img-fluid pt-5 pb-5" src="/img/strugachL.png" alt="Photo">
                               <p>Промышленник, купец 2-ой гильдии Лейба Давидович Стругач (1842-1906) Некоторое время он  проживал в Минске. В 70-ые годы XIX века переселился в Ошмяны откуда была родом его жена Гинда. В Ошмянах он оставил купеческие дела и развил бурную предпринимательскую деятельность.
                                  <br><br>В январе 1878 года он обращается в Ошмянское уездное полицейское управление с просьбой осмотреть предполагаемое для открытия водочного завода помещение – дом его тестя Каменецкого Мойши Гершонавича (род. ~1820) и дать согласие на открытие. Его идея пришлась не по вкусу владельцам уже существующих подобных предприятий : Шмелю Богдану,Вульфу Барану, Гиршу Дорскому и Хайму Дорскому. Вскоре в различные инстанции посыпались жалобы на Л. Д. Стругача, в которых утверждалось, что дом Каменецкого является не безопасным в пожарном отношении. Этим вопросом занимался Виленский губернатор ( к нему поступила жалоба за 10 подписями в январе 1878 года). На письмах-жалобах ставились одинаковые пометки «Оставить без последствий». Губернатор дает разрешение на открытие водочного завода в городе Ошмяны. Таким образом, предприятие начинает функционировать в 1878 году. Нужно оговориться, что оно не имеет отношения к нынешнему дрожзаводу, так как находилось в другом месте и служило лишь своеобразной «стартовой площадкой» для расширения дела. К сожалению, нам не удалось точно выяснить – где находился этот дом, так как данных о семье крайне мало. Известно лишь, что дом располагался по улице Виленской (сегодня это улицы Красноармейская и частично Советская)
                                  <br><br>В 1878-1879 идет новый этап переписки с Ошмянской городской управой и полицейским управлением, составляется план нового завода. Нашлось и место для его строительства. С этой целью Л.Д. Стругач приобретает участок земли на берегу реки Ошмянки (ул. Борунская) и начинает строительство параллельно с попытками добиться разрешения на открытие завода. Рядом строится деревянный дом для рабочих и сараи.                              
@@ -58,10 +58,10 @@
          </div>
       </div>
       <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
+      <script src="/vendor/jquery.min.js"></script>
+      <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="/vendor/wow/wow.js"></script>
+      <script src="/js/script.js"></script>
       <script>
          new WOW().init();
       </script>

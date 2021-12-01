@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="ru" class="no-js" xmlns:th="http://www.thymeleaf.org">
    <head>
       <!-- Meta -->
       <title>Продолжители рода</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="/vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+      <link href="/css/style.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
+         <a class="navbar-brand mx-auto" href="/">
          <p class="back_but" height="22" alt="Logo">СТРУГАЧИ. ИСТОРИЯ И НАСЛЕДИЕ</p>
          </a>
          <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
@@ -22,9 +22,9 @@
          </div>
          <div id="toggle-nav" class="navbar-collapse collapse">
             <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link" href="fabricks.html">Постройки</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="childrens.html">Детки</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="legacy.html">Наследие</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/plants">Постройки</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/children">Детки</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/legacy">Наследие</a> </li>
                <li class="nav-item"> <a class="nav-link" href="https://www.google.com/maps/d/edit?mid=1sP5UQgftom80rUb1kisrxhc1mhctaBwV&usp=sharing">Маршрут</a> </li>
             </ul>
             <div id="social"></div>
@@ -40,7 +40,7 @@
                   <br><br>Известно, что Абрам Стругач был женат дважды. Первая жена – Кейля Моисеевна Бройда. Поженились они 26.06.1892 в Вильно, развелись 04.02.1910 в Оранах. Вторая жена – Соня Левин из Слонима. Имели 2 детей : сына Леона и дочь Лиду.
                   <br><br><div class="row">
                      <div class="col-xl-5 col-md-7 col-sm-12">
-                        <img class="img-fluid" src="img/abram.png" alt="Photo">
+                        <img class="img-fluid" src="/img/abram.png" alt="Photo">
                         <p>Абрам Лейбович Стругач</p>
                      </div>
                   </div>
@@ -55,7 +55,7 @@
       <div class="container">
          <div class="row">
             <div class="col-xl-5 col-md-7 offset-md-4 col-sm-12 pt-5">
-               <img class="img-fluid" src="img/david.png" alt="Photo">
+               <img class="img-fluid" src="/img/david.png" alt="Photo">
                <p>Давид Стругач. На фото  среди учителей ошмянской еврейской школы.
                </p>
             </div>
@@ -67,7 +67,7 @@
                <p>Уноследовав завод, Абрам и Давид взялись за дело. В 1907 году основали Дрожже-винокуренный завод в Лиде. В Ошмянском музее им. Ф. Богушевича сохранилось фото обертки продукции завода Стругачей. Для Ошмянского и Лидского заводов она была идентичной.
                   <div class="row">
                      <div class="col-xl-5 col-md-7 col-sm-12">
-                        <img class="img-fluid" src="img/pack.png" alt="Photo">
+                        <img class="img-fluid" src="/img/pack.png" alt="Photo">
                      </div>
                   </div>
                   <br><br>Во время владения заводом сыновьями Л.Д.Стругача объем выпускаемой продукции вырос.
@@ -75,7 +75,7 @@
                   <div class="container">
                      <div class="row">
                         <div class="col-xl-5 col-md-7 offset-md-4 col-sm-12 pt-5">
-                           <img class="img-fluid" src="img/vilno_ved.png" alt="Photo">
+                           <img class="img-fluid" src="/img/vilno_ved.png" alt="Photo">
                         </div>
                      </div>
                   </div>
@@ -86,8 +86,8 @@
                   <br><br>Это позволило Стругачам войти в 30-ку богатейших промышленников Беларуси первой половины ХХ века. С сентября 1939 года сведений о Потомках Л.Д.Стругача осталось крайне мало. Известно, что с приходом большевиков Ошмянский дрожзавод и другие промышленные предприятия были конфискованы. Тем не менее, Абрам Стругач с семьей остались в Ошмянах.
                   <br><br>Жили они в имении Пановелишки. На современной карте этот адрес не найти, но на картах 1970-х годов он еще присутствует. Отмечен он и на карте 1930-х годов.
                   <br><br>Сейчас адрес усадьбы д.Буденовка, ул. Л.Д. Стругача. Ее строительство начал еще сам Лейба Давидович Стругач  в конце XIX . Нет сведений, кто принимал участие в разработке проекта усадьбы, известно только, что окончательно строительство было завершено к началу ХХ века. Дом был построен в стиле модерн с тремя балконами и террасой.
-                  <img class="img-fluid pt-5 pb-5" src="img/old_usadba.png" alt="Photo">
-                  <img class="img-fluid pt-5 pb-5" src="img/new_usadba.png" alt="Photo">
+                  <img class="img-fluid pt-5 pb-5" src="/img/old_usadba.png" alt="Photo">
+                  <img class="img-fluid pt-5 pb-5" src="/img/new_usadba.png" alt="Photo">
                   <br><br>К сожалению, судьба богатейших людей Беларуси печальна. В 1941 году Абрам Стругач  был убит. Детали удалось найти в статье Антония Ченко "Судьба  евреев и цыган Ошмян": «...Шэрагі беларускай паліцыі папоўніў радавіты расіянін Васька Фаменка. Гэты атлетычны малады чалавек хутка стаў вядомы на ўвесь горад, як бязлітасны кат і выканаўца экзэкуцый, галоўным чынам над яўрэямі. Ад яго рукі загінулі на яўрэйскіх могілках: Абрам Стругач (паважаны ўласнік вінакурні і значных надзелаў зямлі), Залман і яго сын Хаім Саладухі (кавалі, у якіх месціўся мой брат Міхал), Карпава з дачкой і дзесяткі іншых. Васька спакойна фарсіў у футры Стругача, вызываючы абурэнне сярод жыхароў горада. Пасля перадачы пад адміністрацыю Літвы часткі віленшчыны, Васька, як старанны выканаўца прыказаў гітлераўскіх жандармаў, быў пераведзены ў Stutzpunkt пад Лебедзева. Калі распачалі сваю дзейнасць савецкія партызаны, ён гранатамі знішчыў нямецкае звяно, а сам з выжыўшым да гэтага часу ашмянскім яўрэям Гедалем Каганам, які быў у немцаў конюхам, адправіўся да савецкіх партызан у Налібокскую пушчу. І гэта была яго вялікая памылка. У аддзеле Васька быў выкрыты і застрэлены маладой яўрэйкай...»
                   <br><br>Как мы видим, в статье не упоминается о судьбе жены и детей Абрама Стругача. Документальных свидетельств нет, однако нам удалось узнать, что в 1941 году Абрам Стругач некоторое время прятался в подвале дома местной жительницы. Выйти из подполья его вынудила лишь прямая угроза жизни семье. Местная жительница Масловская Мария Иосифовна (14 августа 1905-1978 года) также свидетельствовала о том, что на расстрел повели его вместе с женой. 
                   <br><br>Подробнее о быте семьи Абрама Стругача мы узнали из интервью с Ярошевич Ядвигой Степановной (1929 г. р), проживавшей в д. Пановелишки (сейчас д. Буденовка). «…в 1938-1939 гг. жили мы в имении Стругача. Я, мой отец  и 2 брата – Мечислав и Эдвард. Эдвард работал вместе с аграномом. Были стеклянные ружерни (оранжереи), одна из них отапливалась и у нас в январе и феврале были свои овощи и цветы. Стругач был очень добрый человек. Были дочь и сын взрослые, не женатые. Жили где-то отдельно, может учились. На большом балконе пани делала детям учту (учебу). Столы ставили кругом. Гуляли в соломенных шляпах, в город ходили пешком. Молились в молитвенном доме возле кладбища. Платили рабочим по 1-2 злотому в день. В саду был фонтан – озерко зацементировано, была золотая рыбка. На горе (3 этаж) растили павлинов. С города приходили перья красть, были чучела павлинов. Кто-то видел, как его с женой гнали на кладбище и там расстреляли..»
@@ -100,10 +100,10 @@
       </div>
       <!-- End Studio -->
       <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
+      <script src="/vendor/jquery.min.js"></script>
+      <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="/vendor/wow/wow.js"></script>
+      <script src="/js/script.js"></script>
       <script>
          new WOW().init();
       </script>

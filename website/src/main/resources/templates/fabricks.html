@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="ru" class="no-js" xmlns:th="http://www.thymeleaf.org">
    <head>
       <!-- Meta -->
       <title>Построечки Стручагей</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="/vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+      <link href="/css/style.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
+         <a class="navbar-brand mx-auto" href="/">
             <p class="back_but" height="22" alt="Logo">СТРУГАЧИ. ИСТОРИЯ И НАСЛЕДИЕ</p>
          </a>
          <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
@@ -22,9 +22,9 @@
          </div>
          <div id="toggle-nav" class="navbar-collapse collapse">
             <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link" href="fabricks.html">Постройки</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="childrens.html">Детки</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="legacy.html">Наследие</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/plants">Постройки</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/children">Детки</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="/legacy">Наследие</a> </li>
                <li class="nav-item"> <a class="nav-link" href="https://www.google.com/maps/d/edit?mid=1sP5UQgftom80rUb1kisrxhc1mhctaBwV&usp=sharing">Маршрут</a> </li>
             </ul>
             <div id="social"></div>
@@ -46,7 +46,7 @@
                                  <br><br>Таким образом, в сентябре 1880 года здание завода было построено и полностью готово к эксплуатации. Последнее слово осталось за Виленским начальством. 30 октября 1880 года было заведено дело «Дело Виленского губернского правления о разрешении купцу Лейбе Стругачу построить винокуренно-дрожжевой и пивоваренный заводы». Решение было в пользу Лейбы Давидовича. Дата официального открытия не известна, поэтому ее заменяет дата документа, разрешающего открытие – 6 ноября 1880 года. 
                                  
                               </p>
-                              <img class="img-fluid pt-5 pb-5" src="img/factory_old.png" alt="Photo">
+                              <img class="img-fluid pt-5 pb-5" src="/img/factory_old.png" alt="Photo">
                               <p>Долгое время в Беларуси (до 2017 года) существовало  только два завода, которые выпускали  дрожжи:
                                  <br><br>1)Минский, построенный в 1891 году евреями Янкель и Зэльманам Раковщик
                                      <br>2)Ошмянский. Как упоминалось ранее, построеный Л. Стругачем в 1880 году (В начале ХХ века промышленник объединил дрожжевой  завод в Ошмянах  и свою пивоварню в Лиде в "Товарищество  Л.Стругача" и делал поставки этого товара  в Вильно).
@@ -59,7 +59,7 @@
                                  <br><br>Также Стругачу принадлежала водяная мельница с двумя поставами, где трудились 4 рабочие и 1 служащий. Видимо, он ее арендовал, так как платил за помещение 500 рублей в год. [4, с. 17]
                                  <br><br>Еврейская община  в Ошмянах была очень сильной и довольно состоятельной.  Это позволило построить в городе в конце XIX века каменную синагогу. Одно из самых больших пожертвований на строительство поступило  от Лейбы  Стругача.
                               </p>
-                              <img class="img-fluid pt-5 pb-5" src="img/sinagoga_old.png" alt="Photo"><p>Современный вид:</p><img class="img-fluid pt-5 pb-5" src="img/sinagoga_new.jpg" alt="Photo">
+                              <img class="img-fluid pt-5 pb-5" src="/img/sinagoga_old.png" alt="Photo"><p>Современный вид:</p><img class="img-fluid pt-5 pb-5" src="/img/sinagoga_new.jpg" alt="Photo">
 
                               <p>О больших прибылях Стругача говорит и  то, что в 1888 году он построил на городской площади двухэтажный  жилой каменный дом. Также имеются сведения, что завод расширялся и перестраивался в 1903г. 29 октября 1903 года на заводе возник пожар, сгорела крыша, предприятию причинен некоторый ущерб.
                                  <br><br>Таким образом, появление Лейбы давидовича Стругача на Ошмянской земле, его женитьба на местной жительнице Гинде Каменецкой значительно повлияло на дальнейшую историю Ошмянщины.
@@ -74,10 +74,10 @@
          </div>
       </div>
       <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
+      <script src="/vendor/jquery.min.js"></script>
+      <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="/vendor/wow/wow.js"></script>
+      <script src="/js/script.js"></script>
       <script>
          new WOW().init();
       </script>
