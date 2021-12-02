@@ -11,3 +11,5 @@ public class WebsiteApplication {
     }
 
 }
+//Так, блять,
+// написать регистрацию аккаутнов и чат
